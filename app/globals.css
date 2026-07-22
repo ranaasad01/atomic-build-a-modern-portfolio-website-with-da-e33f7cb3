@@ -1,3 +1,151 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: #0f0f0f;
+  --surface: #1a1a2e;
+  --surface-alt: #16213e;
+  --primary: #00d4ff;
+  --accent: #7b2ff7;
+  --foreground: #ffffff;
+  --muted: #8892a4;
+  --border: #1e2a45;
+
+  /* Design system overrides (kept for compatibility) */
+  --brand-primary: #00d4ff;
+  --brand-accent: #7b2ff7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography scale */
+.text-display {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.text-h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.text-h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.text-h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.text-body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.text-caption {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Neon glow utilities */
+.glow-primary {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3), 0 0 40px rgba(0, 212, 255, 0.1);
+}
+
+.glow-accent {
+  box-shadow: 0 0 20px rgba(123, 47, 247, 0.3), 0 0 40px rgba(123, 47, 247, 0.1);
+}
+
+.text-glow-primary {
+  text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(26, 26, 46, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 212, 255, 0.2);
+  color: var(--foreground);
+}
+
+/* Mesh gradient background for hero */
+.mesh-bg {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(123, 47, 247, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(0, 212, 255, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(22, 33, 62, 0.8) 0%, transparent 60%),
+    var(--background);
+}
+
+/* Timeline connector */
+.timeline-line {
+  background: linear-gradient(to bottom, var(--primary), var(--accent));
+}
+
+@media (max-width: 640px) {
+  .text-display {
+    font-size: 2.5rem;
+  }
+  .text-h1 {
+    font-size: 1.875rem;
+  }
+}

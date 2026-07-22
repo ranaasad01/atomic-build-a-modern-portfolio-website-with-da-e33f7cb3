@@ -1,1 +1,97 @@
-{}
+{
+  "nav": {
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "certifications": "Certificaciones",
+    "awards": "Premios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Rao Muhammad Ali",
+    "body": "Integro calidad en cada línea de código — rompiendo sistemas para que tus usuarios nunca tengan que hacerlo. Desde suites de pruebas automatizadas hasta benchmarks de rendimiento, me aseguro de que el software se lance con confianza.",
+    "cta": "Ver Mi Trabajo",
+    "badge": "SDET e Ingeniero QA",
+    "ctaContact": "Ponte en contacto",
+    "ctaProjects": "Ver trabajo",
+    "firstName": "Rao Muhammad",
+    "lastName": "Ali",
+    "scroll": "Desplázate para explorar",
+    "tagline": "Asegurando calidad mediante pruebas precisas y automatización",
+    "title": "Ingeniero de Aseguramiento de Calidad de Software"
+  },
+  "about": {
+    "heading": "Acerca de Mí",
+    "body": "Soy un apasionado Ingeniero de Desarrollo de Software en Pruebas con experiencia práctica en el diseño y ejecución de marcos de pruebas automatizadas, suites de validación de API y pruebas de estrés de rendimiento en plataformas complejas y orientadas a datos. Mi experiencia abarca ingeniería QA, desarrollo front-end e ingeniería de software — lo que me da una perspectiva full-stack sobre dónde se esconden los bugs y cómo detectarlos antes de que lleguen a producción.\n\nProspero en entornos de ritmo rápido donde la calidad es innegociable. Ya sea escribiendo flujos end-to-end en Playwright, realizando pruebas de estrés en APIs con JMeter o colaborando con desarrolladores para desplazar las pruebas hacia la izquierda, mi objetivo siempre es el mismo: entregar software que funcione impecablemente para cada usuario, cada vez.",
+    "degreeValue": "Aseguramiento de Calidad de Software",
+    "eyebrow": "Acerca de",
+    "infoDegree": "Profesional SQA",
+    "infoEmail": "raomali005@gmail.com",
+    "infoLocation": "Lahore, Pakistán",
+    "infoRole": "SDET",
+    "para1": "Ingeniero de Aseguramiento de Calidad de Software con experiencia práctica en técnicas de pruebas modernas y una comprensión profunda del ciclo de vida del desarrollo de software. Especializado en pruebas funcionales, de regresión, usabilidad, compatibilidad y exploratorias.",
+    "para2": "Competente con herramientas estándar de la industria como Postman y JMeter para validación de API y rendimiento. Comprometido con identificar problemas temprano y permitir lanzamientos suaves y confiables mediante aseguramiento de calidad meticuloso."
+  },
+  "skills": {
+    "heading": "Habilidades y Herramientas",
+    "body": "Un conjunto de herramientas seleccionado construido a través de ingeniería QA en el mundo real — cada insignia representa una herramienta que he usado para entregar software de mayor calidad.",
+    "eyebrow": "Habilidades",
+    "subheading": "Pruebas de API, Automatización de Pruebas, Pruebas de Rendimiento, Metodologías QA"
+  },
+  "experience": {
+    "heading": "Experiencia Laboral",
+    "body": "Una línea de tiempo de roles donde he convertido desafíos de QA en soluciones confiables y automatizadas.",
+    "eyebrow": "Experiencia"
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "body": "Trabajo de ingeniería QA en el mundo real — desde suites de regresión automatizadas hasta benchmarking de rendimiento en plataformas a escala de producción.",
+    "eyebrow": "Proyectos",
+    "subheading": "Automatización de pruebas, validación de API e iniciativas de aseguramiento de calidad."
+  },
+  "education": {
+    "heading": "Educación",
+    "body": "Una sólida base en ingeniería de software que respalda cada estrategia de pruebas y decisión de automatización que tomo.",
+    "degree": "Aseguramiento de Calidad de Software",
+    "description": "Capacitación integral en metodologías de QA, automatización de pruebas y mejores prácticas de aseguramiento de calidad.",
+    "eyebrow": "Educación",
+    "period": "Continuo",
+    "status": "En Progreso",
+    "university": "Desarrollo Profesional"
+  },
+  "certifications": {
+    "heading": "Certificaciones",
+    "body": "Credenciales que validan tanto mi experiencia técnica como mi compromiso con el crecimiento profesional continuo.",
+    "eyebrow": "Certificaciones"
+  },
+  "awards": {
+    "heading": "Premios y Liderazgo",
+    "body": "Roles de liderazgo y reconocimientos que reflejan mi impulso de contribuir más allá del código — construyendo comunidades y desarrollando colegas.",
+    "eyebrow": "Premios"
+  },
+  "contact": {
+    "heading": "Conectemos",
+    "body": "Ya sea que busques un SDET dedicado para tu equipo, quieras colaborar en un proyecto de QA, o simplemente quieras hablar sobre pruebas — mi bandeja de entrada siempre está abierta.",
+    "cta": "Enviar un Mensaje",
+    "ctaBody": "Conectemos y discutamos cómo puedo contribuir a los objetivos de aseguramiento de calidad de tu equipo.",
+    "ctaTitle": "¿Listo para trabajar juntos?",
+    "emailCta": "Enviar un correo",
+    "emailLabel": "Correo Electrónico",
+    "eyebrow": "Ponte en Contacto",
+    "linkedinCta": "Visitar LinkedIn",
+    "linkedinLabel": "LinkedIn",
+    "linkedinValue": "linkedin.com/in/raomali",
+    "locationLabel": "Ubicación",
+    "phoneLabel": "Teléfono",
+    "subheading": "Comunícate para colaborar, hacer preguntas u oportunidades."
+  },
+  "footer": {
+    "tagline": "Diseñado y construido con precisión — porque incluso los portafolios merecen un control de calidad.",
+    "copyright": "© 2024 Rao Muhammad Ali. Todos los derechos reservados.",
+    "linkedin": "LinkedIn",
+    "email": "raomuhammadali.sdet@gmail.com",
+    "built": "Construido con Next.js 14, TypeScript y Tailwind CSS"
+  }
+}

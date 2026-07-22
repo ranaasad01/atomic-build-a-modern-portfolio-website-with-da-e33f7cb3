@@ -1,1 +1,97 @@
-{}
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "education": "Education",
+    "certifications": "Certifications",
+    "awards": "Awards",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Rao Muhammad Ali",
+    "body": "I engineer quality into every line of code — breaking systems so your users never have to. From automated test suites to performance benchmarks, I make sure software ships with confidence.",
+    "cta": "View My Work",
+    "badge": "SDET & QA Engineer",
+    "ctaContact": "Get in touch",
+    "ctaProjects": "View work",
+    "firstName": "Rao Muhammad",
+    "lastName": "Ali",
+    "scroll": "Scroll to explore",
+    "tagline": "Ensuring quality through precision testing and automation",
+    "title": "Software Quality Assurance Engineer"
+  },
+  "about": {
+    "heading": "About Me",
+    "body": "I'm a passionate Software Development Engineer in Test with hands-on experience designing and executing automated test frameworks, API validation suites, and performance stress tests across complex, data-driven platforms. My background spans QA engineering, front-end development, and software engineering — giving me a full-stack perspective on where bugs hide and how to catch them before they reach production.\n\nI thrive in fast-paced environments where quality is non-negotiable. Whether I'm scripting end-to-end flows in Playwright, stress-testing APIs with JMeter, or collaborating with developers to shift testing left, my goal is always the same: deliver software that works flawlessly for every user, every time.",
+    "degreeValue": "Software Quality Assurance",
+    "eyebrow": "About",
+    "infoDegree": "SQA Professional",
+    "infoEmail": "raomali005@gmail.com",
+    "infoLocation": "Lahore, Pakistan",
+    "infoRole": "SDET",
+    "para1": "Software Quality Assurance Engineer with hands-on expertise in modern testing techniques and a deep understanding of the software development lifecycle. Specialized in functional, regression, usability, compatibility, and exploratory testing.",
+    "para2": "Proficient with industry-standard tools like Postman and JMeter for API and performance validation. Committed to identifying issues early and enabling smooth, reliable releases through meticulous quality assurance."
+  },
+  "skills": {
+    "heading": "Skills & Tools",
+    "body": "A curated toolkit built through real-world QA engineering — every badge represents a tool I've used to ship higher-quality software.",
+    "eyebrow": "Skills",
+    "subheading": "API Testing, Test Automation, Performance Testing, QA Methodologies"
+  },
+  "experience": {
+    "heading": "Work Experience",
+    "body": "A timeline of roles where I've turned QA challenges into reliable, automated solutions.",
+    "eyebrow": "Experience"
+  },
+  "projects": {
+    "heading": "Projects",
+    "body": "Real-world QA engineering work — from automated regression suites to performance benchmarking on production-scale platforms.",
+    "eyebrow": "Projects",
+    "subheading": "Test automation, API validation, and quality assurance initiatives."
+  },
+  "education": {
+    "heading": "Education",
+    "body": "A strong software engineering foundation that underpins every testing strategy and automation decision I make.",
+    "degree": "Software Quality Assurance",
+    "description": "Comprehensive training in QA methodologies, test automation, and quality assurance best practices.",
+    "eyebrow": "Education",
+    "period": "Ongoing",
+    "status": "In Progress",
+    "university": "Professional Development"
+  },
+  "certifications": {
+    "heading": "Certifications",
+    "body": "Credentials that validate both my technical expertise and my commitment to continuous professional growth.",
+    "eyebrow": "Certifications"
+  },
+  "awards": {
+    "heading": "Awards & Leadership",
+    "body": "Leadership roles and recognitions that reflect my drive to contribute beyond the codebase — building communities and developing peers.",
+    "eyebrow": "Awards"
+  },
+  "contact": {
+    "heading": "Let's Connect",
+    "body": "Whether you're looking for a dedicated SDET to join your team, want to collaborate on a QA project, or just want to talk testing — my inbox is always open.",
+    "cta": "Send a Message",
+    "ctaBody": "Let's connect and discuss how I can contribute to your team's quality assurance goals.",
+    "ctaTitle": "Ready to work together?",
+    "emailCta": "Send an email",
+    "emailLabel": "Email",
+    "eyebrow": "Get in Touch",
+    "linkedinCta": "Visit LinkedIn",
+    "linkedinLabel": "LinkedIn",
+    "linkedinValue": "linkedin.com/in/raomali",
+    "locationLabel": "Location",
+    "phoneLabel": "Phone",
+    "subheading": "Reach out for collaboration, questions, or opportunities."
+  },
+  "footer": {
+    "tagline": "Designed & built with precision — because even portfolios deserve a QA pass.",
+    "copyright": "© 2024 Rao Muhammad Ali. All rights reserved.",
+    "linkedin": "LinkedIn",
+    "email": "raomuhammadali.sdet@gmail.com",
+    "built": "Built with Next.js 14, TypeScript & Tailwind CSS"
+  }
+}
